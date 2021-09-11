@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        node: [10, 12]
+        node: [12, 14]
 
     steps:
       - uses: actions/setup-node@v1
@@ -33,7 +33,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: npm
+        run: npm install
 
       - name: Lint
         run: npm run lint
