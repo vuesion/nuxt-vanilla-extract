@@ -1,0 +1,45 @@
+{
+  "name": "@vuesion/nuxt-vanilla-extract",
+  "version": "0.0.1",
+  "description": "Add seek-oss/vanilla-extract to your nuxt application",
+  "repository": "vuesion/nuxt-vanilla-extract",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Johannes Werner <johannes.werner@hey.com>"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --fix --ext .js,.vue .",
+    "release": "npm test && standard-version && git push --follow-tags && npm publish",
+    "test": "npm run lint && jest"
+  },
+  "dependencies": {
+    "@vanilla-extract/babel-plugin": "^1.1.0",
+    "@vanilla-extract/css": "^1.5.0",
+    "@vanilla-extract/webpack-plugin": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
