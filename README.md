@@ -3,7 +3,6 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
-[![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
 > Add seek-oss/vanilla-extract to your nuxt application
@@ -76,17 +75,14 @@ export default defineComponent({
 Copyright (c) Johannes Werner
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-vanilla-extract/latest.svg
-[npm-version-href]: https://npmjs.com/package/nuxt-vanilla-extract
+[npm-version-src]: https://img.shields.io/npm/v/@vuesion/nuxt-vanilla-extract/latest.svg
+[npm-version-href]: https://npmjs.com/package/@vuesion/nuxt-vanilla-extract
 
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-vanilla-extract.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxt-vanilla-extract
 
 [github-actions-ci-src]: https://github.com/vuesion/nuxt-vanilla-extract/workflows/ci/badge.svg
 [github-actions-ci-href]: https://github.com/vuesion/nuxt-vanilla-extract/actions?query=workflow%3Aci
-
-[codecov-src]: https://img.shields.io/codecov/c/github/vuesion/nuxt-vanilla-extract.svg
-[codecov-href]: https://codecov.io/gh/vuesion/nuxt-vanilla-extract
 
 [license-src]: https://img.shields.io/npm/l/nuxt-vanilla-extract.svg
 [license-href]: https://npmjs.com/package/nuxt-vanilla-extract
