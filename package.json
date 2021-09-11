@@ -1,6 +1,6 @@
 {
   "name": "@vuesion/nuxt-vanilla-extract",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add seek-oss/vanilla-extract to your nuxt application",
   "repository": "vuesion/nuxt-vanilla-extract",
   "license": "MIT",
