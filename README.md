@@ -6,7 +6,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> Adds seek-oss/vanilla-extract to your nuxt application
+> Add seek-oss/vanilla-extract to your nuxt application
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -23,14 +23,45 @@ yarn add @vuesion/nuxt-vanilla-extract # or npm install @vuesion/nuxt-vanilla-ex
 ```js
 {
   modules: [
-    // Simple usage
     '@vuesion/nuxt-vanilla-extract',
-
-    // With options
-    ['@vuesion/nuxt-vanilla-extract', { /* module options */ }]
   ]
 }
 ```
+
+3. Create `*.css.ts` file
+
+```js
+import { style } from '@vanilla-extract/css'
+
+export const className = style({
+  color: 'red',
+  fontFamily: 'sans-serif',
+  fontWeight: 600,
+})
+```
+
+4. Import and use `*.css.ts` file
+
+```js
+<template>
+  <div :class="className">Foo Bar</div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api';
+import { className } from './VueBadge.css';
+
+export default defineComponent({
+  name: 'MyComponent',
+  setup() {
+    return {
+      className,
+    };
+  },
+});
+</script>
+```
+
 
 ## Development
 
@@ -42,7 +73,7 @@ yarn add @vuesion/nuxt-vanilla-extract # or npm install @vuesion/nuxt-vanilla-ex
 
 [MIT License](./LICENSE)
 
-Copyright (c) Johannes Werner <johannes.werner@hey.com>
+Copyright (c) Johannes Werner
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-vanilla-extract/latest.svg
