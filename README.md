@@ -84,5 +84,5 @@ Copyright (c) Johannes Werner
 [github-actions-ci-src]: https://github.com/vuesion/nuxt-vanilla-extract/workflows/ci/badge.svg
 [github-actions-ci-href]: https://github.com/vuesion/nuxt-vanilla-extract/actions?query=workflow%3Aci
 
-[license-src]: https://img.shields.io/npm/l/nuxt-vanilla-extract.svg
-[license-href]: https://npmjs.com/package/nuxt-vanilla-extract
+[license-src]: https://img.shields.io/npm/l/@vuesion/nuxt-vanilla-extract.svg
+[license-href]: https://npmjs.com/package/@vuesion/nuxt-vanilla-extract
