@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { className } from './index.css.js'
+import { className } from './index.css'
 
 export default {
   data () {
